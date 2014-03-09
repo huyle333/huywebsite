@@ -1,0 +1,252 @@
+*
+{
+	margin:		0;
+	padding:	0;
+}
+
+body
+{
+	background:				url(../img/bg.png) repeat;
+	font:					1em "Ubuntu";
+}
+
+.wrapper
+{
+	margin:					0 auto;
+	width:					960px;
+}
+
+.clear:before, .clear:after
+{
+	content:				"";
+	display: 				table;
+}
+
+.clear:after
+{
+	clear: 					both;
+}
+
+.header
+{
+	background-image:		url(../img/gradient.png);
+	background-repeat:		repeat-x;
+	border-bottom:			2px solid #D1D6E0;
+	box-shadow: 			0 2px 2px rgba(0,0,0,.25);
+	padding:				0 0 12px 0;
+	width:					100%;
+	position:				fixed;
+}
+
+.logo
+{
+	float:					left;
+	margin:					10px 0 0 10px;
+}
+
+.logo img, .logo h1
+{
+	display: 				inline-block;
+	border-radius: 			30px;
+}
+
+.logo h1
+{
+	position: 				relative;
+	font-size:				1.75em;
+	bottom:					8px;
+	left:					8px;
+}
+
+.logo h1 a
+{
+	color:					#D5DAE3;
+	font-weight:			400;
+	text-decoration: 		none;
+}
+
+.logo h1 a:hover
+{
+	color:					#FFFFFF;
+}
+
+.navigation
+{
+	float:					right;
+	margin-top: 			12px;
+}
+
+.navigation li
+{
+	display: 				inline-block;
+}
+
+.navigation a
+{
+	color:					#D1D6E0;
+	display: 				block;
+	font-size:				1.1em;
+	font-weight: 			400;
+	padding:				0 20px;
+	margin:					10px 0 0 10px;
+	text-decoration: 		none;
+}
+
+.navigation a:hover
+{
+	color:					#FFFFFF;
+}
+
+.stage
+{
+	margin-left: 10px;
+	margin-bottom: 40px;
+	padding: 0 0 0 0;
+	background: #EBECED;
+	box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    width: 792px;
+    height: 285px;
+	border-radius: 20px;
+}
+
+.btn-group
+{
+	border-radius: 30px;
+	padding-left: 250px;
+	
+}
+
+.intro
+{
+	padding-top:			87px;
+	padding-left:			0px;
+	margin-left:			95px;
+	width:					80%;
+}
+
+.intro h1{
+	font:					3em "Ubuntu";
+	padding-bottom:			10px;
+}
+
+.intro h1 span
+{
+	font:					1.5em "Ubuntu";
+	text-shadow: black 0.017em 0.017em 0em;
+	color:					#0057C9;
+}
+
+.intro h2{
+	font:					300 1.5em "Ubuntu";
+	margin: 				0 auto;
+	font-weight:			400;
+	padding-left:			65px;
+	padding-bottom:			20px;
+}
+
+.image1 img
+{		
+	margin-left:			105px;
+	border-radius: 			30px;
+	box-shadow: 			0 2px 2px rgba(0,0,0,.25);
+	border: 				1px solid black;
+	-moz-border-radius: 	30px;
+	-webkit-border-radius: 	30px;
+}
+
+.aboutme{
+	float:					left;
+	margin:					0 auto;
+	margin-left:			15px;
+	padding:				30px;
+	width: 					727px;
+    height:             	100%;
+    border:             	1px black;
+	box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    background-color:   	#EBECED;
+	border-radius: 			20px;
+}
+.aboutme h1{
+	color:					#0057C9;
+	text-shadow: 			black 0.03em 0.03em 0em;
+	border-bottom: 			2px solid black;
+	padding-bottom:			5px;
+	font:					500 2.25em "Ubuntu";
+}
+
+.aboutme p{
+	padding-top:		25px;
+	font:				300 1.1em "Ubuntu";
+	font-weight:		400;
+}
+
+.hire-me
+{
+	padding:				50px 0 75px 0;
+	margin-left:			275px;
+	float: 					left;
+}
+
+.hire-me h1
+{
+	font-size:				3em;
+	font-weight:			300;
+	padding-bottom: 		20px;
+}
+
+.hire-me a
+{
+	background-color: 		#0057C9;
+	border-radius: 			4px;
+	color:					#eee;
+	font:					italic 1em "Ubuntu";
+	margin:					0 10px;
+	padding: 				10px;
+	text-align: 			center;
+	text-decoration: 		none;
+	text-shadow:			0 1px 0 #000;
+}
+
+.hire-me a:hover
+{
+	background-color: 		black;
+}
+
+.hire-me span
+{
+	font-size: 				0.8em;
+}
+
+.footer
+{
+	padding:				25px 0;
+}
+
+.footer p
+{
+	float:					left;
+	width:					65%;
+}
+
+.footer ul
+{
+	float:					right;
+	text-align: 			right;
+	width:					35%;
+}
+
+.footer li
+{
+	display: 				inline-block;
+}
+
+.footer li a
+{
+	color:					#777;
+	padding: 				5px;
+}
+
+.footer li a:hover
+{
+	color:					#333;
+}

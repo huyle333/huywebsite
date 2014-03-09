@@ -1,0 +1,425 @@
+*
+{
+	margin:		0;
+	padding:	0;
+}
+
+body
+{
+	background:				url(../img/bg.png) repeat;
+	font:					1em "Ubuntu";
+}
+
+.wrapper
+{
+	margin:					0 auto;
+	width:					960px;
+}
+
+.clear:before, .clear:after
+{
+	content:				"";
+	display: 				table;
+}
+
+.clear:after
+{
+	clear: 					both;
+}
+
+.header
+{
+	background-image:		url(../img/gradient.png);
+	background-repeat:		repeat-x;
+	border-bottom:			2px solid #D1D6E0;
+	box-shadow: 			0 2px 2px rgba(0,0,0,.25);
+	padding:				0 0 12px 0;
+	width:					100%;
+	position:				fixed;
+}
+
+.logo
+{
+	float:					left;
+	margin:					10px 0 0 10px;
+}
+
+.logo img, .logo h1
+{
+	display: 				inline-block;
+	border-radius: 			30px;
+}
+
+.logo h1
+{
+	position: 				relative;
+	font-size:				1.75em;
+	bottom:					8px;
+	left:					8px;
+}
+
+.logo h1 a
+{
+	color:					#D5DAE3;
+	font-weight:			400;
+	text-decoration: 		none;
+}
+
+.logo h1 a:hover
+{
+	color:					#FFFFFF;
+}
+
+.navigation
+{
+	float:					right;
+	margin-top: 			12px;
+}
+
+.navigation li
+{
+	display: 				inline-block;
+}
+
+.navigation a
+{
+	color:					#D1D6E0;
+	display: 				block;
+	font-size:				1.1em;
+	font-weight: 			400;
+	padding:				0 20px;
+	margin:					10px 0 0 10px;
+	text-decoration: 		none;
+}
+
+.navigation a:hover
+{
+	color:					#FFFFFF;
+}
+
+.stage
+{
+	margin-left: 10px;
+	margin-bottom: 40px;
+	padding: 50px 0 0 0;
+	background: #EBECED;
+	box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    width: 950px;
+    height: 285px;
+	border-radius: 20px;
+}
+
+.image1{
+	padding:		38px 0px 10px 50px;
+}
+
+.image1 img
+{		
+	float: left;
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0 2px 2px rgba(0,0,0,.25);
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+.stage h1 span
+{
+	color:					#0057C9;
+	text-shadow: black 0.03em 0.03em 0em;
+	padding-left:			25px;
+}
+
+.stage h1
+{
+	font:					bold 3em "Ubuntu";
+	font-weight:			800;
+	padding:				13px 0 10px 0;
+}
+
+.stage h2
+{
+	font:					300 1.5em "Ubuntu";
+	margin: 				0 auto;
+	text-align:				center;
+	width:					60%;
+	padding-bottom:			10px;
+	padding-left:			60px;
+}
+
+.stage h3
+{
+	font:					300 1.25em "Ubuntu";
+	margin: 				0 auto;
+	text-align:				center;
+	width:					60%;
+	padding-bottom:			10px;
+	font-weight:			400;
+}
+
+.stage h2 strong
+{
+	font-weight:			400;
+}
+
+.btn-group
+{
+	border-radius: 30px;
+	padding-top:	10px;
+	
+}
+.btn-group a
+{
+	
+}
+
+.text2 p strong{
+	color:		#0B73DB;	
+}
+
+.content
+{
+	padding-bottom:			50px;
+}
+
+.intro
+{
+	padding-left:			150px;
+	margin: 				0 auto;
+	width:					70%;
+}
+
+.intro h1{
+	font:					3em "Ubuntu";
+	padding-bottom:			10px;
+}
+
+.intro h1 span
+{
+	font:					1.5em "Ubuntu";
+	color:					#0B73DB;
+}
+
+.intro h2{
+	font:					300 1.5em "Ubuntu";
+	margin: 				0 auto;
+	font-weight:			400;
+	padding-left:			65px;
+	padding-bottom:			60px;
+}
+
+.img2 img
+{
+	margin-top:				15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 			0 3px 3px rgba(0,0,0,.25);
+	border: 				2px solid black;
+	border-radius: 			30px;
+	margin-bottom: 			50px;
+}
+
+.text2 p{
+	font:					300 1.5em "Ubuntu";
+	font-weight:			400;
+	padding-top:			52px;
+}
+
+.work-info
+{
+	float:					left;
+	width:					60%;
+}
+
+.work-info h1
+{
+	font-size:				1.75em;
+	font-weight: 			400;
+	padding-bottom: 		3px;
+	color:					#0057C9;
+}
+
+.work-info h2
+{
+	font-size:				1.1em;
+	font-weight: 			400;
+}
+
+.work-info h3
+{
+	border-bottom: 			1px solid #0057C9;
+	font:					300 0.8em "Ubuntu";
+	padding-bottom: 		10px;
+}
+
+.work-info p
+{
+	border-top: 			1px solid #0057C9;
+	font: 					italic 1em "Ubuntu";
+	line-height: 			1.4em;
+	padding-top: 			10px;
+}
+
+.work-info ul
+{
+	border-top: 			1px solid black;
+	line-height: 			1.4em;
+	padding-top: 			10px;
+}
+.work-info li
+{
+	text-decoration: 		none;
+	display: 				inline-block;
+	display: 				block;
+	font-size:				1.1em;
+	font-weight: 			400;
+}
+
+.work-process
+{
+	float:					right;
+	width: 					35%;
+}
+
+.work-process h1
+{
+	padding-top:			10px;
+	border-bottom: 			1px solid #black;
+	font-size:				1.75em;
+	font-weight: 			400;
+	padding-bottom: 		10px;
+	color:					#0B73DB;
+	
+}
+
+.work-process ul
+{
+	border-top: 			1px solid black;
+	list-style: 			square;
+	padding:				10px 0 20px 20px;
+}
+
+.work-process a
+{
+	background-color: 		#0057C9;
+	border-radius: 			4px;
+	color:					#eee;
+	display: 				block;
+	font:					italic 1em "Ubuntu";
+	padding: 				10px;
+	text-align: 			center;
+	text-decoration: 		none;
+	text-shadow:			0 1px 0 #000;
+}
+
+.work-process a:hover
+{
+	background-color: 		black;
+}
+
+.video
+{
+	text-align: 			center;
+}
+
+.video img{
+	border-radius: 			10px;
+}
+
+.video1{
+	text-align: 			center;
+}
+
+.video1 img{
+	border: 				1px solid black;
+	border-radius: 			10px;
+}
+
+.hire-me
+{
+	border-top:				2px solid #0057C9;
+	padding:				50px 0 75px 0;
+	text-align: 			center;
+}
+
+.hire-me h1
+{
+	font-size:				3em;
+	font-weight:			300;
+	padding-bottom: 		20px;
+}
+
+.hire-me a
+{
+	background-color: 		#0057C9;
+	border-radius: 			4px;
+	color:					#eee;
+	font:					italic 1em "Ubuntu";
+	margin:					0 10px;
+	padding: 				10px;
+	text-align: 			center;
+	text-decoration: 		none;
+	text-shadow:			0 1px 0 #000;
+}
+
+.hire-me a:hover
+{
+	background-color: 		black;
+}
+
+.hire-me span
+{
+	font-size: 				0.8em;
+}
+
+.footer
+{
+	border-top:				2px solid #0057C9;
+	padding:				25px 0;
+}
+
+.footer p
+{
+	float:					left;
+	width:					65%;
+}
+
+.footer ul
+{
+	float:					right;
+	text-align: 			right;
+	width:					35%;
+}
+
+.footer li
+{
+	display: 				inline-block;
+}
+
+.footer li a
+{
+	color:					#777;
+	padding: 				5px;
+}
+
+.footer li a:hover
+{
+	color:					#333;
+}
+
+.workheader{
+	color:					#0057C9;
+	text-shadow: 			black 0.03em 0.03em 0em;
+	border-bottom: 			2px solid black;
+	font:					300 1.25em "Ubuntu";
+	padding-bottom: 		5px;
+}
+
+.work-process img{
+	border-radius: 			10px;
+}
+
+.work-image{
+	text-align:				center;
+}
